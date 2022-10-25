@@ -1,0 +1,25 @@
+<resources>
+    <string name="login_title">LoginActivity</string>
+    <string name="login_page">Login to your account</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="btnlogin">Login</string>
+    <string name="btnregister">Register</string>
+    <string name="ttlWelcomeUser">Welcome User</string>
+    <string name="lbl_recipients">Recipients:</string>
+    <string name="lbl_subject">Subject:</string>
+    <string name="lbl_Message">Message:</string>
+    <string name="btn_sendMessage">Send Message</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="ttlRegisterUser">Register a New Account</string>
+    <string name="btn_Register">Register</string>
+    <string name="txtIdNum">ID Number:</string>
+    <string name="txtFirstName">First Name:</string>
+    <string name="txtLastName">Last Name:</string>
+    <string name="txtEmailAddress">Email Address:</string>
+    <string name="txtPassword">Password:</string>
+    <string name="txtConfirmPassword">Confirm Password:</string>
+    <string name="ttlProfileView">Your Profile</string>
+
+
+</resources>

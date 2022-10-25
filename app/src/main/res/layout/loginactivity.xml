@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#4CAF50"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/LoginGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:text="@string/login_page"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:layout_width="88dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="monospace"
+        android:text="@string/username"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/LoginGreeting"
+        app:layout_constraintTop_toBottomOf="@+id/LoginGreeting" />
+
+    <TextView
+        android:id="@+id/txtpassword"
+        android:layout_width="88dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="monospace"
+        android:text="@string/password"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/inUsername"
+        app:layout_constraintTop_toBottomOf="@+id/inUsername" />
+
+    <EditText
+        android:id="@+id/inUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="20170390@s.ubaguio.edu"
+        app:layout_constraintEnd_toEndOf="@+id/LoginGreeting"
+        app:layout_constraintStart_toStartOf="@+id/txtusername"
+        app:layout_constraintTop_toBottomOf="@+id/txtusername" />
+
+    <EditText
+        android:id="@+id/inPasswordlogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="20170390"
+        app:layout_constraintEnd_toEndOf="@+id/LoginGreeting"
+        app:layout_constraintStart_toStartOf="@+id/txtpassword"
+        app:layout_constraintTop_toBottomOf="@+id/txtpassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btnlogin"
+        app:iconTint="#009688"
+        app:iconTintMode="add"
+        app:layout_constraintStart_toStartOf="@+id/inPasswordlogin"
+        app:layout_constraintTop_toBottomOf="@+id/inPasswordlogin" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btnregister"
+        app:layout_constraintEnd_toEndOf="@+id/inPasswordlogin"
+        app:layout_constraintTop_toBottomOf="@+id/inPasswordlogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
